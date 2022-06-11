@@ -1,0 +1,45 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class Employee{
+-firstname
+-lastname
+-email_id
+-employeeId
+
++save()
+
+}
+class FullTimeEmployee extends Employee implements payable{
+}
+class Intern extends Employee implements payable{
+}
+class contractEmployee  extends Employee implements payable{
+}
+
+interface TaxCalcuate{
++calcuate()
+
+}
+interface payable{
++processPayment()
+}
+interface saveRepoDB{
+}
+class sqlRepos implements saveRepoDB{
+}
+class MongoDB implements saveRepoDB{
+}
+
+
+class InternTaxCalcute implements TaxCalcuate{
+}
+class contarctTaxCalcute implements TaxCalcuate{
+}
+class fullTaxCalcute implements TaxCalcuate{
+}
+
+
+
+
+@enduml

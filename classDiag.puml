@@ -1,0 +1,37 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+
+interface flayable{
++fly():
+}
+class Bird{
+-weight:Double
+-color: String
+
+}
+class Eagle implements flayable{
+
+}
+class Hen extends Bird implements flayable{
+}
+class kiwi extends Bird{
+}
+
+class Mi_21 implements flayable{
+}
+class saktiman implements flayable{
+}
+class Game {
++void render(Bird b){
+b.fly()
+}
+
+Bird <|-- Eagle
+
+
+
+
+
+
+@enduml
