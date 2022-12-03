@@ -1,3 +1,5 @@
+package bird;
+
 interface  pyabale{
     public  void fly();
 }

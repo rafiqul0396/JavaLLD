@@ -1,4 +1,6 @@
-public class KiWI extends  Bird{
+package bird;
+
+public class KiWI extends Bird {
 
     public KiWI(double wt, String color) {
         super(wt, color);

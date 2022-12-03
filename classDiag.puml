@@ -5,7 +5,7 @@
 interface flayable{
 +fly():
 }
-class Bird{
+class bird.Bird{
 -weight:Double
 -color: String
 
@@ -13,9 +13,9 @@ class Bird{
 class Eagle implements flayable{
 
 }
-class Hen extends Bird implements flayable{
+class Hen extends bird.Bird implements flayable{
 }
-class kiwi extends Bird{
+class kiwi extends bird.Bird{
 }
 
 class Mi_21 implements flayable{
@@ -23,11 +23,11 @@ class Mi_21 implements flayable{
 class saktiman implements flayable{
 }
 class Game {
-+void render(Bird b){
++void render(bird.Bird b){
 b.fly()
 }
 
-Bird <|-- Eagle
+bird.Bird <|-- Eagle
 
 
 

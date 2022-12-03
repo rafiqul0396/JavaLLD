@@ -1,4 +1,6 @@
-public class Hen extends Bird implements  pyabale{
+package bird;
+
+public class Hen extends Bird implements pyabale {
 
     public Hen(double wt, String color) {
             super(wt, color);
