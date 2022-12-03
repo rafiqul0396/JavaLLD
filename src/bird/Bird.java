@@ -1,3 +1,5 @@
+package bird;
+
 public class Bird {
     double wt;
     String color;
